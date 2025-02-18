@@ -35,28 +35,29 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img width="952" alt="Screenshot configuring firewall to stop ping traffic" src="https://github.com/user-attachments/assets/ff4597e5-bb88-4153-ba75-c1229b84b378" />
+<img width="952" alt="Screenshot configuring firewall to stop ping traffic png3" src="https://github.com/user-attachments/assets/5c0ab3af-b94a-4746-9caf-d3885adc11f9" />
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img width="949" alt="Screenshot configuring firewall to stop ping traffic png2" src="https://github.com/user-attachments/assets/d87aa1d4-6290-43dd-a78d-13aede2bc8b4" />
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, we’re inside the Network Security Group (NSG) settings, specifically in the Inbound security rules section. You can see that an ICMP rule has been set to Deny, which blocks incoming ping requests to enhance security.
 </p>
 <br />
 
 <p>
-<img width="952" alt="Screenshot configuring firewall to stop ping traffic png3" src="https://github.com/user-attachments/assets/f5bc798b-2e31-4356-8b75-34852cc2d852" />
+<img width="954" alt="Screenshot configuring firewall to stop ping traffic png4" src="https://github.com/user-attachments/assets/20d3a3cf-e29c-4a15-b14e-5d6d679c7cda" />
+
+</p>
+<p>In this screenshot, we're monitoring ICMP traffic on the Windows 10 VM using Wireshark and the command line. You can see the Ping requests and responses, helping us verify if the ICMP traffic is allowed or blocked.
+</p>
+<br />
+
+<p>
+<img width="948" alt="Screenshot of pinging virutal machines in microsoft azure " src="https://github.com/user-attachments/assets/99be791c-2a08-4cc6-90e5-3359dc9a218b" />
+
+
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this screenshot, we're checking ICMP traffic on the Windows 10 VM using Wireshark and the command line. The Ping activity should now be working, showing successful requests and responses.
 </p>
 <br />
